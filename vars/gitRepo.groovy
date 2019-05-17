@@ -1,4 +1,4 @@
-def call(){
+def gitRepo(){
     return 'https://github.com/prakash9707/employee'
 }
 
