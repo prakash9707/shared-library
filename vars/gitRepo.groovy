@@ -1,5 +1,5 @@
 def call(){
-    return 'https://github.com/prakash9707/employee.git/'
+    return 'https://github.com/prakash9707/springboot.git/'
 }
 
 
