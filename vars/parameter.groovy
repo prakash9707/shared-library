@@ -8,7 +8,8 @@ node{
     String timePart = date.format("HH:mm:ss")
     echo datePart
     echo timePart
-   def VERSION_CONTENT = 'Build Id - ' + '\n' + 'Build Triggered By - ' + '\n' + 'Application URL - ' + '\n' 
+   def VERSION_CONTENT = 'Build Id - ' + '\n' + 'Build Triggered By - ' + '\n' + 'Application URL - ' + '\n' + 'Date of build - ' + datePart + '\n' + 'time of build - ' + timePart + '\n' 
+    
    writeFile file: "${PUBLIC_FOLDER_PATH}/Version.txt", text: VERSION_CONTENT 
   }
 }
